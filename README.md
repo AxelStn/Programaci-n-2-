@@ -7,6 +7,8 @@ Daniel Palomino: Hola me llamo Daniel, estoy estudiando la licenciatura informat
 
 Axel Olivares: Soy estudiante en la tecnicatura en desarrollo de software en UADE. Mi objetivo es terminar la carrera adqueriendo la mayor cantidad de conococimientos posibles. Y así como meta, lograr seguir estudiante en la carrera de la Licenciatura en gestión de Teconología de la información.
 
+Angiello Cancino: Soy estudiante de la licenciatura en gestión de la tecnología de la información en Uade, un objetivo que tengo es poder terminar la carrera y en el transcurso poder conseguir mi primer trabajo, me gusta jugar al fútbol y al básquet, además toco el piano en mis tiempos libre.
+
 Bitácora:
 
 27/8
