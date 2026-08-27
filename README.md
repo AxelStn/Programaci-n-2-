@@ -5,5 +5,8 @@ Mayra Gutierrez: estoy en la licenciatura de informática, y me gusta leer y sal
 
 Daniel Palomino: Hola me llamo Daniel, estoy estudiando la licenciatura informatica en uade. Mi objetivo es poder terminar la carrera, espero aprender mucho en esta clase :).
 
+Bitácora:
 
+27/8
+Haciendo ejercicios de pila y cola
 
