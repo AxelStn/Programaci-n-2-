@@ -2,6 +2,8 @@
 TPO Programación 2
 
 Mayra Gutierrez: estoy en la licenciatura de informática, y me gusta leer y salir con mis amigos
+<img width="80" height="62" alt="image" src="https://github.com/user-attachments/assets/36389f40-63b7-4065-92d6-2553b0ffbcca" />
+
 
 Daniel Palomino: Hola me llamo Daniel, estoy estudiando la licenciatura informatica en uade. Mi objetivo es poder terminar la carrera, espero aprender mucho en esta clase :).
 
