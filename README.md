@@ -9,6 +9,8 @@ Axel Olivares: Soy estudiante en la tecnicatura en desarrollo de software en UAD
 
 Angiello Cancino: Soy estudiante de la licenciatura en gestión de la tecnología de la información en Uade, un objetivo que tengo es poder terminar la carrera y en el transcurso poder conseguir mi primer trabajo, me gusta jugar al fútbol y al básquet, además toco el piano en mis tiempos libre.
 
+Amarilla Cristhian: Soy estudiante de ingenieria en informatica en la UADE (Universidad Argentina de la Empresa); mi meta actualmente es terminar la carrera y en un futuro si es posible poder estudiar otra carrera, me gusta el futbol, mirar peliculas y series.
+
 Bitácora:
 
 27/8
