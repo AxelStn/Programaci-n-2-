@@ -10,7 +10,30 @@
 
 
 Bitácora:
+Clase 1 – 06/08/2026
+Temas de la clase: Introducción a Java. Tipos de datos, variables, operadores, estructuras de control, arreglos, métodos, clases, paquetes y pasaje por valor y referencia
 
-27/8
-Haciendo ejercicios de pila y cola
+Clase 2 – 13/08/2026
+Temas de la clase: Conceptos fundamentales de Orientación a Objetos: objetos, clases, atributos, métodos, identidad, estado y comportamiento. Abstracción, encapsulamiento y ocultamiento de información.
+
+Clase 3 – 20/08/2026
+Temas de la clase: Tipos de Datos Abstractos (TDA), niveles de abstracción, interfaz y contrato, pilas (LIFO), colas (FIFO), colas con prioridad, conjuntos (Sets), diccionarios y su relación clave-valor, e implementación estática mediante arreglos.
+
+Clase 4 - 27/08/2026
+Ejercicios de pila y cola
+
+Clase 5 - 03/09/2026
+Ejercicios Conjunto, Diccionario simple, Diccionario compuesto
+
+Clase 6 - 10/09/2026
+Comparación de implementaciones estáticas y dinámicas
+
+Clase 7 - 17/09/2026
+Ejercicios similares al parcial
+
+Clase 8 - 24/09/2026
+Parcial
+
+Clase 9 - 01/10/2026
+Temas de la clase: Complejidad de algoritmos, costos en tiempo y memoria, notación Big-O, complejidad O(1), crecimiento según la cantidad de datos y ejercicios de análisis de algoritmos.
 
