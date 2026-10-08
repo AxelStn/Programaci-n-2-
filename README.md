@@ -10,6 +10,7 @@
 
 
 Bitácora:
+
 Clase 1 – 06/08/2026
 Temas de la clase: Introducción a Java. Tipos de datos, variables, operadores, estructuras de control, arreglos, métodos, clases, paquetes y pasaje por valor y referencia
 
