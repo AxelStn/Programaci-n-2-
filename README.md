@@ -38,3 +38,12 @@ Parcial
 Clase 9 - 01/10/2026
 Temas de la clase: Complejidad de algoritmos, costos en tiempo y memoria, notación Big-O, complejidad O(1), crecimiento según la cantidad de datos y ejercicios de análisis de algoritmos.
 
+Clase 10 - 08/10/2026 
+Temas de la clase: Introducción a los árboles de búsqueda: raíz, niveles, subárboles, hojas y relaciones padre-hijo.
+
+Clase 11 - 15/10/2026
+Ejercicios Arboles AVL
+
+Clase 12 - 22/10/2026
+Ejercitacion Arboles AVL (2), Ejercitación completar codigo
+
