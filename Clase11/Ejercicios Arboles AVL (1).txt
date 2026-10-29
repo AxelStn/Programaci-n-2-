@@ -1,0 +1,166 @@
+                          Clase 11 – 15-10-2026
+                          Arboles AVL (1)
+===============================================================================
+
+1. INSERCIÓN: 30, 20, 10
+-------------------------------------------------------------------------------
+* Estado inicial: 30 -> 20 -> 10
+* Factor de Equilibrio: FE(30) = +2
+* Caso: LL (Left-Left)
+* Solución: Rotación simple a la derecha sobre el nodo 30.
+
+Resultado:
+      20
+     /  \
+    10  30
+
+
+2. INSERCIÓN: 10, 20, 30
+-------------------------------------------------------------------------------
+* Estado inicial: 10 -> 20 -> 30
+* Factor de Equilibrio: FE(10) = -2 (Primer nodo desbalanceado)
+* Caso: RR (Right-Right)
+* Solución: Rotación simple a la izquierda sobre el nodo 10.
+
+Resultado:
+      20
+     /  \
+    10  30
+
+
+3. INSERCIÓN: 30, 10, 20
+-------------------------------------------------------------------------------
+* Antes de rotar:
+      30
+     /
+    10
+     \
+      20
+* Factor de Equilibrio: FE(30) = +2
+* Caso: LR (Left-Right)
+* Solución: Primero, rotación izquierda sobre 10; luego, rotación derecha sobre 30.
+
+Resultado:
+      20
+     /  \
+    10  30
+
+
+4. INSERCIÓN: 10, 30, 20
+-------------------------------------------------------------------------------
+* Antes de rotar:
+    10
+     \
+      30
+     /
+    20
+* Factor de Equilibrio: FE(10) = -2
+* Caso: RL (Right-Left)
+* Solución: Primero, rotación derecha sobre 30; luego, rotación izquierda sobre 10.
+
+Resultado:
+      20
+     /  \
+    10  30
+
+
+5. INSERCIÓN: 40, 20, 60, 10, 30, 50, 70, 25
+-------------------------------------------------------------------------------
+* Factores obtenidos: FE(30) = +1; FE(20) = -1; FE(60) = 0; FE(40) = +1.
+* Nota: No hace falta rotar. Todos los factores están entre -1 y +1.
+
+Resultado:
+            40
+          /    \
+        20      60
+       /  \    /  \
+      10  30  50  70
+         /
+        25
+
+
+6. INSERCIÓN: 30, 10, 20, 40, 50, 25
+-------------------------------------------------------------------------------
+* Al insertar 20: FE(30) = +2 (Caso LR) -> Rotación izquierda sobre 10 y derecha sobre 30.
+* Al insertar 40: No aparece desbalance.
+* Al insertar 50: FE(30) = -2 (Caso RR) -> Rotación izquierda sobre 30.
+* Al insertar 25: FE(20) = -2 (Caso RL) -> Rotación derecha sobre 40 y luego izquierda sobre 20.
+
+Árbol Final:
+         30
+        /  \
+      20    40
+     /  \     \
+    10  25     50
+
+
+7. ELIMINAR 60
+-------------------------------------------------------------------------------
+* Después de eliminar el nodo 60:
+         40
+        /
+      20
+     /  \
+    10  30
+* Factores obtenidos: FE(40) = +2; FE(20) = 0.
+* Solución: Rotación simple a la derecha sobre el nodo 40.
+
+Resultado:
+      20
+     /  \
+    10  40
+       /
+      30
+
+
+8. ELIMINAR 10
+-------------------------------------------------------------------------------
+* Después de eliminar el nodo 10:
+      20
+        \
+         40
+        /  \
+       30  50
+* Factores obtenidos: FE(20) = -2; FE(40) = 0.
+* Solución: Rotación simple a la izquierda sobre el nodo 20.
+
+Resultado:
+      40
+     /  \
+    20  50
+     \
+     30
+
+
+9. ELIMINAR 40 USANDO EL SUCESOR
+-------------------------------------------------------------------------------
+* Estrategia: El sucesor de 40 es 50 (el menor valor del subárbol derecho). Se reemplaza el 40 por el 50 y se elimina el nodo 50 original.
+* Factores obtenidos: FE(20) = 0; FE(60) = -1; FE(50) = 0.
+* Nota: No hace falta rotar.
+
+Resultado:
+         50
+        /  \
+      20    60
+     /  \     \
+    10  30     70
+
+
+10. ÁRBOL CON RAÍZ EQUILIBRADA (EJERCICIO DE ANÁLISIS)
+-------------------------------------------------------------------------------
+1. FE(40) = 0.
+2. Diagnóstico: El árbol original NO es un AVL válido.
+3. Incumplimiento: Los nodos que rompen la condición son el 20 (FE = +2) y el 60 (FE = -2).
+4. Solución paso a paso:
+   - Primero: Reequilibrar el subárbol izquierdo con una rotación simple a la derecha sobre el nodo 20.
+   - Segundo: El subárbol derecho presenta un caso RL, por lo que se aplica rotación derecha sobre 70 y luego izquierda sobre 60.
+
+Árbol Final:
+            40
+          /    \
+        10      65
+       /  \    /  \
+      5   20  60  70
+
+* Conclusión: Todos los nodos finales tienen ahora un FE entre -1 y +1.
+=========================================================================
